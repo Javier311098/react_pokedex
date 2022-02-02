@@ -1,0 +1,177 @@
+.normal {
+  border: 2px solid darken($color: $color-normal, $amount: 20);
+  background-color: $color-normal;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-normal, $amount: 10);
+    color: white;
+  }
+}
+
+.grass {
+  border: 2px solid darken($color: $color-grass, $amount: 20);
+  background-color: $color-grass;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-grass, $amount: 10);
+    color: white;
+  }
+}
+
+.water {
+  border: 2px solid darken($color: $color-water, $amount: 20);
+  background-color: $color-water;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-water, $amount: 10);
+    color: white;
+  }
+}
+
+.fire {
+  border: 2px solid darken($color: $color-fire, $amount: 20);
+  background-color: $color-fire;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-fire, $amount: 10);
+    color: white;
+  }
+}
+
+.electric {
+  border: 2px solid darken($color: $color-electric, $amount: 20);
+  background-color: $color-electric;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-electric, $amount: 10);
+    color: white;
+  }
+}
+.ice {
+  border: 2px solid darken($color: $color-ice, $amount: 20);
+  background-color: $color-ice;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-ice, $amount: 10);
+    color: white;
+  }
+}
+.fighting {
+  border: 2px solid darken($color: $color-fighting, $amount: 20);
+  background-color: $color-fighting;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-fighting, $amount: 10);
+    color: white;
+  }
+}
+
+.poison {
+  border: 2px solid darken($color: $color-poison, $amount: 20);
+  background-color: $color-poison;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-poison, $amount: 10);
+    color: white;
+  }
+}
+
+.ground {
+  border: 2px solid darken($color: $color-ground, $amount: 20);
+  background-color: $color-ground;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-ground, $amount: 10);
+    color: white;
+  }
+}
+
+.flying {
+  border: 2px solid darken($color: $color-flying, $amount: 20);
+  background-color: $color-flying;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-flying, $amount: 10);
+    color: white;
+  }
+}
+
+.psychic {
+  border: 2px solid darken($color: $color-psychic, $amount: 20);
+  background-color: $color-psychic;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-psychic, $amount: 10);
+    color: white;
+  }
+}
+
+.bug {
+  border: 2px solid darken($color: $color-bug, $amount: 20);
+  background-color: $color-bug;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-bug, $amount: 10);
+    color: white;
+  }
+}
+
+.rock {
+  border: 2px solid darken($color: $color-rock, $amount: 20);
+  background-color: $color-rock;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-rock, $amount: 10);
+    color: white;
+  }
+}
+
+.ghost {
+  border: 2px solid darken($color: $color-ghost, $amount: 20);
+  background-color: $color-ghost;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-ghost, $amount: 10);
+    color: white;
+  }
+}
+
+.dragon {
+  border: 2px solid darken($color: $color-dragon, $amount: 20);
+  background-color: $color-dragon;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-dragon, $amount: 10);
+    color: white;
+  }
+}
+
+.dark {
+  border: 2px solid darken($color: $color-dark, $amount: 20);
+  background-color: $color-dark;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-dark, $amount: 10);
+    color: white;
+  }
+}
+
+.steel {
+  border: 2px solid darken($color: $color-steel, $amount: 20);
+  background-color: $color-steel;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-steel, $amount: 10);
+    color: white;
+  }
+}
+
+.fairy {
+  border: 2px solid darken($color: $color-fairy, $amount: 20);
+  background-color: $color-fairy;
+  &:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: darken($color: $color-fairy, $amount: 10);
+    color: white;
+  }
+}

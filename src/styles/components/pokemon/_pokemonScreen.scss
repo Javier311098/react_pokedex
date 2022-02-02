@@ -1,0 +1,141 @@
+.pokemon-container {
+  text-transform: capitalize;
+  display: flex;
+  height: 100vh;
+  margin: 5px;
+
+  @include small {
+    flex-direction: column;
+    align-items: center;
+  }
+  @include large {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.pokemon-container-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+  @include small {
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+    justify-content: start;
+  }
+
+  @include large {
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.pokemon-screen-stats {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  background-color: $logo-blue;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid darken($color: $logo-blue, $amount: 20);
+  &:hover {
+    background-color: darken($color: $logo-blue, $amount: 5);
+    border: 1px solid black;
+  }
+
+  @include small {
+    width: 95%;
+    align-items: center;
+  }
+
+  @include large {
+    width: 40%;
+  }
+}
+
+.pokemon-button-container {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-button {
+  color: $logo-yellow;
+  font-size: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  &:hover {
+    color: darken($color: $logo-yellow, $amount: 20);
+  }
+}
+
+.pokemons-stats-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 30px;
+  }
+}
+
+.pokeball-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pokeball-img {
+  width: 250px;
+  height: 250px;
+}
+
+.pokemon-screen-card {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  p {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: "Pokemon Solid";
+  }
+  img {
+    width: 80%;
+    height: 80%;
+    display: flex;
+  }
+
+  @include small {
+    width: 95%;
+    align-items: center;
+    img {
+      width: 65%;
+      height: 65%;
+    }
+  }
+
+  @include large {
+    width: 40%;
+  }
+}
+
+.pokemon-screen-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}

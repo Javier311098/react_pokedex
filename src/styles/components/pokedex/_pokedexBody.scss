@@ -1,0 +1,19 @@
+.body-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 78vh;
+  margin: 5px;
+  display: grid;
+  grid-gap: 10px;
+  justify-items: center;
+  grid-auto-rows: 300px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  overflow-y: scroll;
+
+  @include medium {
+    height: 70vh;
+  }
+  @include large {
+    height: 78vh;
+  }
+}

@@ -1,0 +1,27 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  input {
+    font-size: 20px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.search-button {
+  background-color: transparent;
+  color: $logo-blue;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  &:hover {
+    background-color: darken($color: white, $amount: 10);
+    border: none;
+  }
+}

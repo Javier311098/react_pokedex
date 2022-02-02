@@ -1,0 +1,27 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+.pagination-container-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  span {
+    font-family: "Pokemon Solid";
+    color: $logo-blue;
+  }
+}
+
+.pagination-buttons {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  font-size: 25px;
+  color: $logo-yellow;
+
+  &:hover {
+    color: darken($color: $logo-yellow, $amount: 10);
+  }
+}

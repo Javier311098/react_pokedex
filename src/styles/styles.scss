@@ -1,0 +1,20 @@
+@import "./base/base";
+@import "./base/variables.scss";
+@import "./base/pokemonTypes";
+
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+
+//components
+
+//utils
+@import "./components/utils/loader";
+@import "./components/utils/navbar";
+@import "./components/utils/pagination";
+@import "./components/utils/search";
+
+//pokedex
+@import "./components/pokedex/pokedexBody";
+
+//pokemon
+@import "./components/pokemon/pokemonCard";
+@import "./components/pokemon/pokemonScreen";
