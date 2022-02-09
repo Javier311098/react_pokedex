@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Loader ||Component should render the component 1`] = `
+<div
+  className="spinner-img-container"
+>
+  <CgPokemon
+    className="img-loader"
+  />
+  <h2>
+    Loading...
+  </h2>
+</div>
+`;
