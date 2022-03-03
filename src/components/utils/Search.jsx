@@ -17,11 +17,13 @@ export const Search = () => {
 
   const handleSearch = () => {
     if (inputValue.length >= 1) {
-      navigate(`/${process.env.REACT_APP_REPO_NAME}/${inputValue}`);
+      navigate(
+        `/${process.env.REACT_APP_REPO_NAME}/${inputValue.toLowerCase()}`
+      );
     } else {
       Swal.fire(
         "Error",
-        "You need write a pokemon name or pokedex number",
+        "You need to write a pokemon name or pokedex number",
         "error"
       );
     }
@@ -37,7 +39,7 @@ export const Search = () => {
           onKeyPress={(event) => event.key === "Enter" && handleSearch()}
           value={inputValue}
           name="inputValue"
-          placeholder="Buscar pokemon..."
+          placeholder="Search Pokemon..."
         />
         <button onClick={handleSearch} className="search-button">
           <BsSearch />
