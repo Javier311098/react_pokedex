@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Search ||Component should render the component 1`] = `
+<div
+  className="search-container"
+>
+  <div
+    className="search-bar"
+  >
+    <input
+      autoComplete="false"
+      name="inputValue"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Buscar pokemon..."
+      type="text"
+      value=""
+    />
+    <button
+      className="search-button"
+      onClick={[Function]}
+    >
+      <BsSearch />
+    </button>
+  </div>
+</div>
+`;

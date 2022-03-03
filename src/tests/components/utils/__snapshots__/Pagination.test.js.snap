@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Pagination ||Component should render the component 1`] = `
+<div
+  className="pagination-container"
+>
+  <div
+    className="pagination-container-info"
+  >
+    <button
+      className="pagination-buttons"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <AiFillStepBackward />
+    </button>
+    <span>
+      3
+       of 
+      28
+    </span>
+    <button
+      className="pagination-buttons"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <AiFillStepForward />
+    </button>
+  </div>
+</div>
+`;
